@@ -10,7 +10,7 @@ public class SwiftDarkThemeIosPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
 
-    switch UITraitCollection().traitCollection.userInterfaceStyle {
+    switch UITraitCollection().userInterfaceStyle {
       case .light, .unspecified:
         result(false);
       case .dark:
