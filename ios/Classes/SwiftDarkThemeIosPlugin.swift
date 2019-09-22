@@ -1,5 +1,6 @@
 import Flutter
 import UIKit
+import UITraitCollection
 
 public class SwiftDarkThemeIosPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
@@ -10,7 +11,7 @@ public class SwiftDarkThemeIosPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
 
-    switch traitCollection.userInterfaceStyle {
+    switch UITraitCollection().traitCollection.userInterfaceStyle {
       case .light, .unspecified:
         result(false);
       case .dark:
