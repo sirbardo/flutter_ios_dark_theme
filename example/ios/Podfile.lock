@@ -1,0 +1,22 @@
+PODS:
+  - dark_theme_ios (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - dark_theme_ios (from `.symlinks/plugins/dark_theme_ios/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+EXTERNAL SOURCES:
+  dark_theme_ios:
+    :path: ".symlinks/plugins/dark_theme_ios/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  dark_theme_ios: 50e56d6d485e1bc774b01369e8c393c9d003ae9b
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 10ae9c18d12c9ffc2275c9a159a3b1e281990db0
+
+COCOAPODS: 1.7.5
