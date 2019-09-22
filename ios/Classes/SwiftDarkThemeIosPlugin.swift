@@ -1,6 +1,5 @@
 import Flutter
 import UIKit
-import UITraitCollection
 
 public class SwiftDarkThemeIosPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
